@@ -1,0 +1,441 @@
+/* -----------------Navigation all css start---------------------   */
+/* Navigation middle css start  */
+.src-btn{
+    background-color: #3cb815 ;
+    color: #fff;
+}
+.src-btn:hover{
+    background-color: #f65005 ;
+    transition:all 200ms ease;
+    
+    
+}
+.nav-icon{
+    background-color: #3cb815 ;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin:4px ;
+}
+.nav-icon:hover{
+    background-color: #f65005 ;
+    transition:all 200ms ease;
+}
+
+/* Navigation middle css end  */
+
+/* navigation css start */
+.header-items{
+    color:#fff;
+    font-size: 18px;
+}
+.header-items:hover{
+    color:#f65005;
+    transition:all 400ms ease;
+    border-bottom:1px solid #f65005;
+}
+.nav-dropdown:hover{
+    background-color: #f65005!important ;
+    transition:all 200ms ease;
+    border-bottom: 1px solid black;
+    color:#fff;
+
+}
+/* navigation css end  */
+
+/* -----------------Navigation all css end---------------------   */
+
+
+
+
+/* -----------------Banner all css end---------------------   */
+.banner1-img{
+    /* text-align: left; */
+    background-image:url('./images/banner1.png');
+    /* background-image:url('../../../../../../images/banner1.png'); */
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    color:white;
+    padding:70px 25px ;
+}
+.banner2-img{
+background-image:url('./images/banner2.png');
+background-repeat:no-repeat;
+background-position: center;
+background-size: cover;
+color:000;
+padding:70px 25px;
+
+}
+/* commonBanner css start  */
+.common_banner_img{
+background-image:url('./images/breadcrumb-bg.jpg');
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+height: 200px;
+display: -webkit-box;
+display: -ms-flexbox;
+/* display: flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center; */
+/* position: relative; */
+}
+/* commonBanner css end  */
+/* -----------------Banner all css end---------------------   */
+
+
+/* -----------------slider all css end---------------------   */
+
+
+/* herosection start  */
+.hero-btn{
+    text-decoration: none;
+    color:#fff;
+    background-color: #3cb815;
+    padding: 12px 20px;
+    border-radius: 50px;
+}
+.hero-btn:hover{
+    background-color: #f65005;
+    color:white;
+    transition:all 200ms ease;
+    /* transition: all 0.3s ease 0s; */
+    
+}
+
+/* hero section end  */
+
+/* home category section start  */
+.cat-part{
+ background-color: #F7F8FC;
+}
+.cat-btn{
+   text-decoration: none; 
+   color:#fff;
+   background-color: #3cb815;
+   border-radius: 50%;
+   padding: 6px 10px;
+}
+.cat-btn:hover{
+    background-color: #f65005;
+    color:white;
+    /* transition:all 200ms ease; */
+    transition: all 0.3s ease 0s;
+    
+}
+
+
+/* slider css  */
+
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff !important;
+    background-color: #3cb815;
+    border-radius: 50px;
+    padding: 4px 6px;
+}
+.swiper-button-next, .swiper-button-prev:hover{
+    background-color: #f65005;
+}
+
+/* home category section end  */
+
+/* -----------------slider all css end---------------------   */
+
+/* -----------------Product all css end---------------------   */
+
+
+.all-cat{
+    border: none;
+    background-color: #fff;
+    }
+    .all-cat:hover{
+    border: none;
+    color: #fb5005;
+    }
+    
+    .product-offer{
+        background-color: #15eb75;
+        color:white;
+        width:50px;
+        position: absolute;
+        top:10px;
+        right:10px;
+        padding: 3px 7px;
+        font-size: 13px;
+        text-transform: uppercase;
+        /* border-radius: 5px; */
+        border-top-right-radius: 10px;
+        border-bottom-left-radius:5px ;
+    
+    }
+    
+    .product-card{
+        position: relative;
+        height:320px;
+        border-radius: 20px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        z-index: 1;
+    }
+    .product-img img{
+        width:100%;
+        transition: transform .3s ease;
+        cursor: pointer;
+    }
+    .product-img {
+        height:60%;
+        overflow: hidden;
+    }
+    .product-img img:hover{
+        transform: scale(1.1);
+    }
+    /* .product-card h3{
+        font-size: 15px;
+        padding:0 5px;
+        font-weight: 700;
+    
+    } */
+    
+    .overlay{
+        display: block;
+        opacity:0;
+        position:absolute;
+        top:10%;
+        left:10px;
+        width:70px;
+        
+    }
+    
+    .product-card:hover .overlay{
+        opacity:1;
+        transition: 0.5%;
+        cursor: pointer;
+        transition:0.5s ease-in-out ;
+       
+    }
+    .btn-btn{
+        color:#fff;
+        background-color: #3cb815;
+        border-radius: 50%;
+        padding: 5px 8px;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    .btn-btn:hover{
+        color:#fff;
+        background-color: #fb5005;
+        border-radius: 50%;
+        padding: 5px 8px;
+        margin-bottom: 5px;
+    }
+    
+    
+    /* add to cart css start */
+    .add-to-cart{
+        width:80%;
+        border: none;
+        color: #fff;
+        background-color: #3cb815;
+        padding: 5px 8px;
+        border-radius: 5px;
+        transition: all 0.3s ease 0s;
+        
+    }
+    .add-to-cart:hover{
+        border: none;
+        color: #fff;
+        background-color: #fb5005;
+        padding: 5px 8px;
+        border-radius: 5px;
+        transition: all 0.3s ease 0s;
+        
+    }
+    /* add to cart css end */
+    
+    
+    
+    @media (max-width: 700px) {
+    .product-category{
+        display:inline-block !important;
+    }
+    .product-category button{
+        display:inline-block !important;
+        margin-bottom: 5px;
+    }
+    
+    }
+    
+    
+/* -----------------Product all css end---------------------   */
+
+
+
+
+
+
+/* -----------------login all css end---------------------   */
+
+.login{
+    background-color: #ffffff;
+    border-radius:20px ;
+    max-width: 500px;
+    margin: auto;
+    padding: 15px 10px;
+    box-shadow: 2px -1px 0px 11px rgba(222,222,222,0.28);
+-webkit-box-shadow: 2px -1px 0px 11px rgba(222,222,222,0.28);
+-moz-box-shadow: 2px -1px 0px 11px rgba(222,222,222,0.28);
+}
+
+.login-link-btn{
+    color:#fb5005;
+    font-weight: bold;
+}
+.login-link-btn:hover{
+    color:#fb5005;
+    font-weight: bold;
+    text-decoration: none;
+}
+.signin-btn{
+    width:100%;
+    background-color: #3cb518;
+    border:0;
+    padding: 10px 30px;
+    color:#fff;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.signin-btn:hover{
+    background-color: #fb5005;
+    border:0;
+    padding: 10px 30px;
+    color:#fff;
+    margin-top: 10px;
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+}
+.login-input{
+    width:100%;
+    outline: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(248, 233, 233)
+}
+.login-input:hover{
+    border: 1px solid #fb5005
+}
+.login h2{
+    color:#3cb518
+}
+/* -----------------login all css end---------------------   */
+
+
+
+
+
+
+
+
+
+
+/* ----------- Footer css start ------------- */
+.footer{
+    background-color: #f7f8fc;
+    
+}
+.footer h4{
+   padding-bottom: 28px ;
+    
+}
+
+
+ .link{
+    text-decoration: none;
+    color:#000;
+    padding-bottom: 8px;
+}
+ .link:hover{
+    text-decoration: none;
+    color:#fb5005;
+    transform: scale(1.02);
+} 
+
+.footer-form{
+    position: relative;
+}
+.input{
+    outline: none;
+    border:none;
+    padding: 10px 8px;
+    font-size: 18px;
+    width:100%;
+    border-radius: 50px;
+    border: 1px solid #AEAEBF;
+    margin-top: 5px;
+}
+.input:hover{
+    border: 1px solid #fb5005;
+    transition:all 200ms ease;
+   
+}
+.footer-btn{
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    padding:5px 8px;
+    background-color: #fb5005;
+    border:none;
+    border-radius: 50px;
+    color:#fff;
+    font-size: 20px;
+}
+.footer-btn:hover{
+    
+    background-color: #3cb815;
+    transition:all 200ms ease;
+}
+.footer-bottom span{
+    color:#3cb815;
+}
+@media (max-width: 700px) {
+    .footer-bottom1 img{
+        display: none;
+    }
+    
+    
+    }
+    .scroll-to-top {
+        background-color: #3cb815;
+        color:#fff !important;
+        right: 40px;
+        bottom: 40px;
+        position: fixed;
+        z-index: 2;
+        cursor: pointer;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        box-shadow: 0 9px 25px 0 rgb(132 128 177 / 28%);
+        border: none;
+    }
+    .scroll-to-top:hover {
+        background-color: #fb5005;
+        transition:all 200ms ease;
+        
+    }
+   
+
+/* ----------- Footer css end ------------- */
