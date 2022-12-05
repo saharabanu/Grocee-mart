@@ -57,6 +57,7 @@ const Chart = () => {
 
   return (
     <Bar options={options} data={data} />
+    
   )
 }
 

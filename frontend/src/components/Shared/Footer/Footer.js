@@ -10,6 +10,7 @@ import FooterPart5 from './FooterPart5';
 const Footer = () => {
   return (
     <>
+   
        <div className='footer mt-5 pt-5'>
              <ScrollToTop className='' smooth top="50" color="#fff"/>
            <div className="container ">
